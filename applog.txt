@@ -1,0 +1,26 @@
+INFO    2019-10-03 19:17:43,210 [Thread-0] Game-EscapeGameCode  - Démarrage du mode ChallengerMode !
+INFO    2019-10-03 19:17:43,214 [Thread-0] Game-EscapeGameCode  - L'intelligence artificielle a choisi un nombre aléatoire 
+INFO    2019-10-03 19:17:43,215 [Thread-0] Game-EscapeGameCode  - Veuillez proposer des codes à 2 chiffres ! Vous avez 6 essais.
+INFO    2019-10-03 19:20:18,914 [Thread-0] Game-EscapeGameCode  - Démarrage du mode ChallengerMode !
+INFO    2019-10-03 19:20:18,918 [Thread-0] Game-EscapeGameCode  - L'intelligence artificielle a choisi un nombre aléatoire 
+INFO    2019-10-03 19:20:18,918 [Thread-0] Game-EscapeGameCode  - Veuillez proposer des codes à 2 chiffres ! Vous avez 6 essais.
+INFO    2019-10-04 01:56:27,247 [Thread-0] Game-EscapeGameCode  - Démarrage du mode ChallengerMode !
+INFO    2019-10-04 01:56:27,263 [Thread-0] Game-EscapeGameCode  - L'intelligence artificielle a choisi un nombre aléatoire 
+INFO    2019-10-04 01:56:27,266 [Thread-0] Game-EscapeGameCode  - Veuillez proposer des codes à 2 chiffres ! Vous avez 6 essais.
+INFO    2019-10-04 01:57:20,167 [Thread-0] Game-EscapeGameCode  - Démarrage du mode ChallengerMode !
+INFO    2019-10-04 01:57:20,168 [Thread-0] Game-EscapeGameCode  - L'intelligence artificielle a choisi un nombre aléatoire 
+INFO    2019-10-04 01:57:20,168 [Thread-0] Game-EscapeGameCode  - Veuillez proposer des codes à 2 chiffres ! Vous avez 6 essais.
+INFO    2019-10-04 01:58:09,894 [Thread-0] Game-EscapeGameCode  - Démarrage du mode ChallengerMode !
+INFO    2019-10-04 01:58:09,897 [Thread-0] Game-EscapeGameCode  - L'intelligence artificielle a choisi un nombre aléatoire 
+INFO    2019-10-04 01:58:09,897 [Thread-0] Game-EscapeGameCode  - Veuillez proposer des codes à 2 chiffres ! Vous avez 6 essais.
+INFO    2019-10-04 18:09:47,219 [Thread-0] Game-EscapeGameCode  - Démarrage du mode ChallengerMode !
+INFO    2019-10-04 18:09:47,222 [Thread-0] Game-EscapeGameCode  - L'intelligence artificielle a choisi un nombre aléatoire 
+INFO    2019-10-04 18:09:47,222 [Thread-0] Game-EscapeGameCode  - Veuillez proposer des codes à 2 chiffres ! Vous avez 6 essais.
+INFO    2019-10-04 18:12:09,524 [Thread-0] Game-EscapeGameCode  - Démarrage du mode ChallengerMode !
+INFO    2019-10-04 18:12:09,528 [Thread-0] Game-EscapeGameCode  - L'intelligence artificielle a choisi un nombre aléatoire 
+INFO    2019-10-04 18:12:09,529 [Thread-0] Game-EscapeGameCode  - Veuillez proposer des codes à 4 chiffres ! Vous avez 10 essais.
+INFO    2019-10-04 18:41:19,160 [Thread-0] Game-EscapeGameCode  - Démarrage du mode ChallengerMode !
+INFO    2019-10-04 18:41:19,162 [Thread-0] Game-EscapeGameCode  - L'intelligence artificielle a choisi un nombre aléatoire 
+INFO    2019-10-04 18:41:19,163 [Thread-0] Game-EscapeGameCode  - Veuillez proposer des codes à 4 chiffres ! Vous avez 10 essais.
+INFO    2019-10-04 18:41:28,158 [Thread-0] Game-EscapeGameCode  - +-=+
+INFO    2019-10-04 18:41:28,159 [Thread-0] Game-EscapeGameCode  - Raté ! Il te reste 9/10 essais !
