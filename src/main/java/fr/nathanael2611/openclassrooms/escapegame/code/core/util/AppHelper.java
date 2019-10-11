@@ -4,6 +4,7 @@ import javax.swing.*;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
+import java.util.Random;
 
 public class AppHelper
 {
@@ -42,6 +43,12 @@ public class AppHelper
         {
             throw new NumberFormatException();
         }
+    }
+
+    public static void fillWithRandom(int[] array)
+    {
+        for (int i = 0; i < array.length; i++)
+            array[i] = new Random().nextInt(9);
     }
 
 }

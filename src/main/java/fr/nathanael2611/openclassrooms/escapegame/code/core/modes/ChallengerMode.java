@@ -2,6 +2,7 @@ package fr.nathanael2611.openclassrooms.escapegame.code.core.modes;
 
 import fr.nathanael2611.openclassrooms.escapegame.code.core.Game;
 import fr.nathanael2611.openclassrooms.escapegame.code.core.modes.exception.GameException;
+import fr.nathanael2611.openclassrooms.escapegame.code.core.util.AppHelper;
 
 import java.util.Random;
 
@@ -24,13 +25,9 @@ public class ChallengerMode extends Mode
     public void start()
     {
         LOGGER.info("Démarrage du mode ChallengerMode !");
-
         this.code = new int[this.CODE_SIZE];
-        for (int i = 0; i < this.CODE_SIZE; i++) {
-            this.code[i] = new Random().nextInt(9);
-        }
+        AppHelper.fillWithRandom(this.code);
         LOGGER.info("L'intelligence artificielle a choisi un nombre aléatoire ");
-
         LOGGER.info(String.format("Veuillez proposer des codes à %s chiffres ! Vous avez %s essais.", this.CODE_SIZE, this.MAX_TRIALS));
     }
 

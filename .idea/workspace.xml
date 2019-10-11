@@ -2,47 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44bc3458-97ea-4bf2-9748-c05e1db9c550" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileContent/fileContent.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.10.3/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/applog.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/fr/nathanael2611/openclassrooms/escapegame/code/core/Game.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/fr/nathanael2611/openclassrooms/escapegame/code/core/config/ConfigProperty.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/fr/nathanael2611/openclassrooms/escapegame/code/core/config/GameConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/fr/nathanael2611/openclassrooms/escapegame/code/core/modes/exception/GameException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/fr/nathanael2611/openclassrooms/escapegame/code/util/AppHelper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gamedir/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gamedir/log4j.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/nathanael2611/openclassrooms/escapegame/code/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/nathanael2611/openclassrooms/escapegame/code/core/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/nathanael2611/openclassrooms/escapegame/code/core/config/ConfigProperty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/nathanael2611/openclassrooms/escapegame/code/core/config/GameConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/nathanael2611/openclassrooms/escapegame/code/core/modes/ChallengerMode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/nathanael2611/openclassrooms/escapegame/code/core/modes/EnumModes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/nathanael2611/openclassrooms/escapegame/code/core/modes/Mode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/nathanael2611/openclassrooms/escapegame/code/core/modes/exception/GameException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/nathanael2611/openclassrooms/escapegame/code/core/util/AppHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/nathanael2611/openclassrooms/escapegame/code/core/modes/DefenderMode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/nathanael2611/openclassrooms/escapegame/code/core/modes/ChallengerMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/nathanael2611/openclassrooms/escapegame/code/core/modes/ChallengerMode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/nathanael2611/openclassrooms/escapegame/code/core/util/AppHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/nathanael2611/openclassrooms/escapegame/code/core/util/AppHelper.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -68,7 +32,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/fr/nathanael2611/openclassrooms/escapegame/code/core/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1488">
+            <state relative-caret-position="867">
               <caret line="61" selection-start-line="61" selection-end-line="61" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -80,8 +44,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/fr/nathanael2611/openclassrooms/escapegame/code/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+            <state relative-caret-position="-775">
+              <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,11 +53,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/fr/nathanael2611/openclassrooms/escapegame/code/core/util/AppHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="66" lean-forward="true" selection-start-column="66" selection-end-column="66" />
+            <state relative-caret-position="340">
+              <caret line="38" column="42" lean-forward="true" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/fr/nathanael2611/openclassrooms/escapegame/code/core/modes/DefenderMode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="588">
+              <caret line="32" column="24" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#296#297#0" expanded="true" />
+                <element signature="e#323#324#0" expanded="true" />
+                <element signature="e#960#961#0" expanded="true" />
+                <element signature="e#989#990#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -101,10 +81,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/fr/nathanael2611/openclassrooms/escapegame/code/core/modes/ChallengerMode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1271">
-              <caret line="49" column="46" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="46" />
+            <state relative-caret-position="185">
+              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#428#429#0" expanded="true" />
+                <element signature="e#463#464#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -198,17 +180,18 @@
         <option value="$PROJECT_DIR$/gamedir/log4j.xml" />
         <option value="$PROJECT_DIR$/gamedir/config.json" />
         <option value="$PROJECT_DIR$/src/main/java/fr/nathanael2611/openclassrooms/escapegame/code/core/modes/exception/GameException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fr/nathanael2611/openclassrooms/escapegame/code/core/modes/ChallengerMode.java" />
         <option value="$PROJECT_DIR$/src/main/java/fr/nathanael2611/openclassrooms/escapegame/code/util/AppHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/fr/nathanael2611/openclassrooms/escapegame/code/core/log/LogManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/fr/nathanael2611/openclassrooms/escapegame/code/core/util/Helpers.java" />
         <option value="$PROJECT_DIR$/src/main/java/fr/nathanael2611/openclassrooms/escapegame/code/core/Game.java" />
         <option value="$PROJECT_DIR$/src/main/java/fr/nathanael2611/openclassrooms/escapegame/code/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/fr/nathanael2611/openclassrooms/escapegame/code/core/util/AppHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/nathanael2611/openclassrooms/escapegame/code/core/modes/ChallengerMode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fr/nathanael2611/openclassrooms/escapegame/code/core/modes/DefenderMode.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -220,6 +203,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -317,14 +302,40 @@
               <item name="escape-game-code" type="b2602c69:ProjectViewProjectNode" />
               <item name="escape-game-code" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="fr" type="462c0819:PsiDirectoryNode" />
+              <item name="nathanael2611" type="462c0819:PsiDirectoryNode" />
+              <item name="openclassrooms" type="462c0819:PsiDirectoryNode" />
+              <item name="escapegame" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="modes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="escape-game-code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="escape-game-code" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="fr" type="462c0819:PsiDirectoryNode" />
+              <item name="nathanael2611" type="462c0819:PsiDirectoryNode" />
+              <item name="openclassrooms" type="462c0819:PsiDirectoryNode" />
+              <item name="escapegame" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="escape-game-code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="escape-game-code" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -411,18 +422,27 @@
       <option name="presentableId" value="Default" />
       <updated>1569614119214</updated>
       <workItem from="1569990959386" duration="27860000" />
-      <workItem from="1570209905208" duration="790000" />
+      <workItem from="1570209905208" duration="1412000" />
+      <workItem from="1570727347487" duration="1298000" />
     </task>
+    <task id="LOCAL-00001" summary="First commit">
+      <created>1570211019846</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1570211019846</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28650000" />
+    <option name="totallyTimeSpent" value="30570000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25479743" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25746268" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -457,6 +477,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/fr/nathanael2611/openclassrooms/escapegame/code/exception/GameException.java" />
@@ -536,36 +560,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties" />
     <entry file="file://$PROJECT_DIR$/src/main/java/fr/nathanael2611/openclassrooms/escapegame/code/core/log/LogManager.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/fr/nathanael2611/openclassrooms/escapegame/code/core/util/DD.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/nathanael2611/openclassrooms/escapegame/code/core/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1488">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/nathanael2611/openclassrooms/escapegame/code/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fr/nathanael2611/openclassrooms/escapegame/code/core/modes/ChallengerMode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1271">
-          <caret line="49" column="46" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fr/nathanael2611/openclassrooms/escapegame/code/core/modes/exception/GameException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="93">
@@ -604,10 +598,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/nathanael2611/openclassrooms/escapegame/code/core/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fr/nathanael2611/openclassrooms/escapegame/code/core/util/AppHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="66" lean-forward="true" selection-start-column="66" selection-end-column="66" />
+        <state relative-caret-position="340">
+          <caret line="38" column="42" lean-forward="true" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/nathanael2611/openclassrooms/escapegame/code/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-775">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/nathanael2611/openclassrooms/escapegame/code/core/modes/ChallengerMode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fr/nathanael2611/openclassrooms/escapegame/code/core/modes/DefenderMode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="32" column="24" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#960#961#0" expanded="true" />
+            <element signature="e#989#990#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
