@@ -20,16 +20,13 @@ public abstract class Mode
     Mode(Game game)
     {
         this.GAME = game;
-        this.LOGGER = game.getLogManager().getLogger();
+        this.LOGGER = game.LOGGER;
         this.CODE_SIZE = GAME.getGameConfig().get(GameConfig.CODE_SIZE).getAsInt();
         this.MAX_TRIALS = GAME.getGameConfig().get(GameConfig.TRIALS).getAsInt();
         this.trials = GAME.getGameConfig().get(GameConfig.TRIALS).getAsInt();
     }
 
-    public String getName()
-    {
-        return null;
-    }
+    public abstract String getName();
 
     public abstract void start();
 
@@ -40,6 +37,7 @@ public abstract class Mode
     }
 
     public abstract String input(int[] entry) throws GameException;
+    public abstract String input(String[] entry) throws GameException;
 
     public boolean isFinished()
     {
@@ -50,5 +48,7 @@ public abstract class Mode
     {
         return trials > 0;
     }
+
+    public abstract Class inputArrayType();
 
 }

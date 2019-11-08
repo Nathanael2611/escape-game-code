@@ -1,4 +1,5 @@
 {
-  "code-size": 4,
-  "trials": 10
+  "code-size": 3,
+  "trials": 10,
+  "debug": true
 }

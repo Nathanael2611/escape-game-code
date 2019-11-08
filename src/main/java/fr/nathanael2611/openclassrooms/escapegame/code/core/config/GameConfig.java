@@ -29,6 +29,8 @@ public class GameConfig
     public static final ConfigProperty CODE_SIZE = new ConfigProperty("code-size", new JsonPrimitive(2));
     /* The number of different trials that the player will have to win */
     public static final ConfigProperty TRIALS = new ConfigProperty("trials", new JsonPrimitive(6));
+    /* The boolean that define if the debug-mode is enabled */
+    public static final ConfigProperty DEBUG = new ConfigProperty("debug", new JsonPrimitive(false));
 
     /**
      * Constructor
@@ -83,6 +85,11 @@ public class GameConfig
     public JsonElement get(ConfigProperty prop)
     {
         return CONFIG_VALUES.getOrDefault(prop.getKey(), prop.getDefaultValue());
+    }
+
+    public boolean isDebugEnabled()
+    {
+        return get(DEBUG).getAsBoolean();
     }
 
 }

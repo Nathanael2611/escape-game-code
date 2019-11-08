@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
-import java.util.Random;
+import java.util.*;
 
 public class AppHelper
 {
@@ -49,6 +49,26 @@ public class AppHelper
     {
         for (int i = 0; i < array.length; i++)
             array[i] = new Random().nextInt(9);
+    }
+
+    public static String assembleOneByOne(int[] array)
+    {
+        StringBuilder builder = new StringBuilder();
+        for (int i : array) builder.append(i);
+        return builder.toString();
+    }
+    public static String assembleOneByOne(String[] array)
+    {
+        StringBuilder builder = new StringBuilder();
+        for (String s : array) builder.append(s);
+        return builder.toString();
+    }
+
+    public static int generateRandomByPossibilities(List<Integer> possibilities)
+    {
+        if(possibilities.size() == 0) return 0;
+        int randomIndex = new Random().nextInt(possibilities.size());
+        return possibilities.get(randomIndex);
     }
 
 }

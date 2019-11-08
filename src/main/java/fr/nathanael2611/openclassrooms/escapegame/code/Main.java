@@ -50,13 +50,18 @@ public class Main
     /**
      * Simply launch the game in the defined working directory
      */
-    private static void launch(File gameDir) throws GameException {
+    private static void launch(File gameDir) throws GameException
+    {
         Logger logger = Logger.getLogger("EscapeGameCode");
         DOMConfigurator.configure(new File(gameDir, "log4j.xml").getAbsolutePath());
 
         INSTANCE = new Game(gameDir, logger);
-        new Thread(()->{
+        new Thread(()-> {
             logger.info("Veuillez choisir un mode !");
+            for (EnumModes value : EnumModes.values())
+            {
+                logger.info(" - " + value.name());
+            }
             /* define the mode variable */
             Mode mode = null;
             while (mode == null)
@@ -83,17 +88,43 @@ public class Main
             {
                 BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
                 try {
-                    int[] code = AppHelper.parseStringToCode(reader.readLine());
-                    try {
-                        mode.input(code);
-                    } catch (GameException e) {
-                        e.printStackTrace();
+                    if(mode.inputArrayType() == Integer.class)
+                    {
+                        int[] code = AppHelper.parseStringToCode(reader.readLine());
+                        try {
+                            mode.input(code);
+                        } catch (GameException e) {
+                            e.printStackTrace();
+                        }
+                    } else {
+                        String[] indications = reader.readLine().split("");
+                        try {
+                            mode.input(indications);
+                        } catch (GameException e) {
+                            e.printStackTrace();
+                        }
                     }
                 } catch (NumberFormatException | IOException e) {
                     logger.error("[Error] Veuillez fournir un nombre valide");
                 }
             }
+            logger.info("Voulez-vous rejouer ?");
+            BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+            try {
+                if(reader.readLine().equalsIgnoreCase("oui"))
+                {
+                    new Thread(()-> {
+                        try {
+                            launch(gameDir);
+                        } catch (GameException e) {
+                            e.printStackTrace();
+                        }
+                    }).start();
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+
         }).start();
     }
-
 }
