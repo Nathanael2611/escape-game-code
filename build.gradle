@@ -3,7 +3,6 @@ plugins {
     id "com.github.johnrengelman.shadow" version "4.0.0"
     id "application"
 }
-
 application {
     mainClassName = "fr.nathanael2611.openclassrooms.escapegame.code.Main"
 }
