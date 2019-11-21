@@ -30,7 +30,7 @@ public class DuelMode extends Mode
         this.userCode = new int[this.CODE_SIZE];
         this.iaGuesser = new IACodeGuesser(this.CODE_SIZE);
 
-        LOGGER.info("Veuillez choisir un code à " + this.CODE_SIZE + " que l'ordinateur devra deviner.");
+        LOGGER.info("Veuillez choisir un code à " + this.CODE_SIZE + " chiffres que l'ordinateur devra deviner.");
         LOGGER.info("De son côté, l'ordinateur a lui-aussi généré un code aléatoire que vous devrez deviner.");
         this.iaCode = this.iaGuesser.tryPossibilities();
         if(GAME.getGameConfig().isDebugEnabled()) LOGGER.debug("Le code de l'ordinateur est: " + AppHelper.assembleOneByOne(this.iaCode));
