@@ -3,7 +3,7 @@ package fr.nathanael2611.openclassrooms.escapegame.code;
 import fr.nathanael2611.openclassrooms.escapegame.code.core.Game;
 import fr.nathanael2611.openclassrooms.escapegame.code.core.modes.EnumModes;
 import fr.nathanael2611.openclassrooms.escapegame.code.core.modes.Mode;
-import fr.nathanael2611.openclassrooms.escapegame.code.core.modes.exception.GameException;
+import fr.nathanael2611.openclassrooms.escapegame.code.core.exception.GameException;
 import fr.nathanael2611.openclassrooms.escapegame.code.core.util.AppHelper;
 import org.apache.log4j.Logger;
 import org.apache.log4j.xml.DOMConfigurator;

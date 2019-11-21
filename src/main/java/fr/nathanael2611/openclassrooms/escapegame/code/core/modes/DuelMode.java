@@ -1,8 +1,8 @@
 package fr.nathanael2611.openclassrooms.escapegame.code.core.modes;
 
 import fr.nathanael2611.openclassrooms.escapegame.code.core.Game;
-import fr.nathanael2611.openclassrooms.escapegame.code.core.modes.exception.GameException;
-import fr.nathanael2611.openclassrooms.escapegame.code.core.modes.exception.InputSizeException;
+import fr.nathanael2611.openclassrooms.escapegame.code.core.exception.GameException;
+import fr.nathanael2611.openclassrooms.escapegame.code.core.exception.InputSizeException;
 import fr.nathanael2611.openclassrooms.escapegame.code.core.util.AppHelper;
 import fr.nathanael2611.openclassrooms.escapegame.code.core.util.IACodeGuesser;
 
@@ -48,6 +48,8 @@ public class DuelMode extends Mode
             } else {
                 if(AppHelper.assembleOneByOne(entry).equalsIgnoreCase(AppHelper.assembleOneByOne(this.iaCode)))
                 {
+                    LOGGER.info("Vous avez deviné le code secret de l'ordinateur !");
+                    LOGGER.info("Félicitations, vous avez gagné !");
                     finish(true);
                 }
             }
@@ -68,6 +70,8 @@ public class DuelMode extends Mode
         this.LOGGER.info("L'ordinateur propose " + AppHelper.assembleOneByOne(entry));
         if(AppHelper.assembleOneByOne(entry).equalsIgnoreCase(AppHelper.assembleOneByOne(this.userCode)))
         {
+            LOGGER.info("L'ordinateur a deviné votre code secret !");
+            LOGGER.info("Dommage, vous avez perdu !");
             finish(false);
             return;
         }

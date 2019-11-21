@@ -1,11 +1,9 @@
 package fr.nathanael2611.openclassrooms.escapegame.code.core.modes;
 
 import fr.nathanael2611.openclassrooms.escapegame.code.core.Game;
-import fr.nathanael2611.openclassrooms.escapegame.code.core.modes.exception.GameException;
-import fr.nathanael2611.openclassrooms.escapegame.code.core.modes.exception.InputSizeException;
+import fr.nathanael2611.openclassrooms.escapegame.code.core.exception.GameException;
+import fr.nathanael2611.openclassrooms.escapegame.code.core.exception.InputSizeException;
 import fr.nathanael2611.openclassrooms.escapegame.code.core.util.AppHelper;
-
-import java.util.Random;
 
 public class ChallengerMode extends Mode
 {

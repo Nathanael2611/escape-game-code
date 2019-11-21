@@ -1,7 +1,7 @@
 package fr.nathanael2611.openclassrooms.escapegame.code.core;
 
 import fr.nathanael2611.openclassrooms.escapegame.code.core.config.GameConfig;
-import fr.nathanael2611.openclassrooms.escapegame.code.core.modes.exception.GameException;
+import fr.nathanael2611.openclassrooms.escapegame.code.core.exception.GameException;
 import org.apache.log4j.Logger;
 
 import java.io.File;

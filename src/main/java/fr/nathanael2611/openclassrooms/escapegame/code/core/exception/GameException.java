@@ -1,4 +1,4 @@
-package fr.nathanael2611.openclassrooms.escapegame.code.core.modes.exception;
+package fr.nathanael2611.openclassrooms.escapegame.code.core.exception;
 
 /**
  * A simple exception that will be thrown when there is a problem in a Mode party

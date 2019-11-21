@@ -475,3 +475,59 @@ INFO    2019-11-03 16:16:21,827 [Thread-2] EscapeGameCode  - Raté ! Il te reste 
 INFO    2019-11-03 16:16:25,829 [Thread-2] EscapeGameCode  - ===
 INFO    2019-11-03 16:16:25,829 [Thread-2] EscapeGameCode  - Mode challenger terminé ! Vous avez gagné !
 INFO    2019-11-03 16:16:25,829 [Thread-2] EscapeGameCode  - Voulez-vous rejouer ?
+INFO    2019-11-21 10:53:44,172 [Thread-0] EscapeGameCode  - Veuillez choisir un mode !
+INFO    2019-11-21 10:53:44,174 [Thread-0] EscapeGameCode  -  - CHALLENGER
+INFO    2019-11-21 10:53:44,174 [Thread-0] EscapeGameCode  -  - DEFENDER
+INFO    2019-11-21 10:53:44,175 [Thread-0] EscapeGameCode  -  - DUEL
+INFO    2019-11-21 10:53:51,833 [Thread-0] EscapeGameCode  - Démarrage du mode ChallengerMode !
+INFO    2019-11-21 10:53:51,834 [Thread-0] EscapeGameCode  - L'intelligence artificielle a choisi un nombre aléatoire 
+DEBUG   2019-11-21 10:53:51,834 [Thread-0] EscapeGameCode  - Le code de l'ordinateur est: 576
+INFO    2019-11-21 10:53:51,841 [Thread-0] EscapeGameCode  - Veuillez proposer des codes à 3 chiffres ! Vous avez 10 essais.
+INFO    2019-11-21 10:54:05,839 [Thread-0] EscapeGameCode  - +-+
+INFO    2019-11-21 10:54:05,839 [Thread-0] EscapeGameCode  - Raté ! Il te reste 9/10 essais !
+INFO    2019-11-21 10:54:07,840 [Thread-0] EscapeGameCode  - +-+
+INFO    2019-11-21 10:54:07,840 [Thread-0] EscapeGameCode  - Raté ! Il te reste 8/10 essais !
+INFO    2019-11-21 10:54:09,841 [Thread-0] EscapeGameCode  - +-+
+INFO    2019-11-21 10:54:09,841 [Thread-0] EscapeGameCode  - Raté ! Il te reste 7/10 essais !
+INFO    2019-11-21 10:54:11,841 [Thread-0] EscapeGameCode  - +-+
+INFO    2019-11-21 10:54:11,841 [Thread-0] EscapeGameCode  - Raté ! Il te reste 6/10 essais !
+INFO    2019-11-21 10:54:13,842 [Thread-0] EscapeGameCode  - ---
+INFO    2019-11-21 10:54:13,842 [Thread-0] EscapeGameCode  - Raté ! Il te reste 5/10 essais !
+INFO    2019-11-21 10:54:19,844 [Thread-0] EscapeGameCode  - ===
+INFO    2019-11-21 10:54:19,844 [Thread-0] EscapeGameCode  - Mode challenger terminé ! Vous avez gagné !
+INFO    2019-11-21 10:54:19,844 [Thread-0] EscapeGameCode  - Voulez-vous rejouer ?
+INFO    2019-11-21 10:54:23,852 [Thread-2] EscapeGameCode  - Veuillez choisir un mode !
+INFO    2019-11-21 10:54:23,852 [Thread-2] EscapeGameCode  -  - CHALLENGER
+INFO    2019-11-21 10:54:23,852 [Thread-2] EscapeGameCode  -  - DEFENDER
+INFO    2019-11-21 10:54:23,852 [Thread-2] EscapeGameCode  -  - DUEL
+INFO    2019-11-21 10:54:32,849 [Thread-2] EscapeGameCode  - Démarrage du mode Duel !
+INFO    2019-11-21 10:54:32,851 [Thread-2] EscapeGameCode  - Veuillez choisir un code à 3 que l'ordinateur devra deviner.
+INFO    2019-11-21 10:54:32,851 [Thread-2] EscapeGameCode  - De son côté, l'ordinateur a lui-aussi généré un code aléatoire que vous devrez deviner.
+DEBUG   2019-11-21 10:54:32,851 [Thread-2] EscapeGameCode  - Le code de l'ordinateur est: 287
+INFO    2019-11-21 10:54:41,854 [Thread-2] EscapeGameCode  - L'ordinateur propose 525
+INFO    2019-11-21 10:54:41,854 [Thread-2] EscapeGameCode  - Voulez-vous rejouer ?
+INFO    2019-11-21 10:54:49,863 [Thread-4] EscapeGameCode  - Veuillez choisir un mode !
+INFO    2019-11-21 10:54:49,863 [Thread-4] EscapeGameCode  -  - CHALLENGER
+INFO    2019-11-21 10:54:49,863 [Thread-4] EscapeGameCode  -  - DEFENDER
+INFO    2019-11-21 10:54:49,863 [Thread-4] EscapeGameCode  -  - DUEL
+INFO    2019-11-21 10:54:52,858 [Thread-4] EscapeGameCode  - Démarrage du mode DefenderMode !
+INFO    2019-11-21 10:54:52,858 [Thread-4] EscapeGameCode  - Veuillez choisir un code à 3 que l'ordinateur devra deviner.
+INFO    2019-11-21 10:54:52,858 [Thread-4] EscapeGameCode  - L'ordinateur devra proposer des codes à 3 chiffres ! Il a 10 essais.
+INFO    2019-11-21 10:55:04,863 [Thread-4] EscapeGameCode  - Votre code secret a été définit 387
+INFO    2019-11-21 10:55:04,863 [Thread-4] EscapeGameCode  - L'ordinateur propose : 603
+INFO    2019-11-21 10:55:04,863 [Thread-4] EscapeGameCode  - RAPPEL: Votre code   : 387
+INFO    2019-11-21 10:55:04,863 [Thread-4] EscapeGameCode  - Indiquez si, pour chaque chiffre de la combinaison, si la solution est plus petite ou plus grande que la valeur donnée.
+INFO    2019-11-21 10:55:40,882 [Thread-4] EscapeGameCode  - L'ordinateur propose : 287
+INFO    2019-11-21 10:55:40,882 [Thread-4] EscapeGameCode  - RAPPEL: Votre code   : 387
+INFO    2019-11-21 10:55:40,882 [Thread-4] EscapeGameCode  - Indiquez si, pour chaque chiffre de la combinaison, si la solution est plus petite ou plus grande que la valeur donnée.
+INFO    2019-11-21 10:55:48,884 [Thread-4] EscapeGameCode  - L'ordinateur propose : 587
+INFO    2019-11-21 10:55:48,884 [Thread-4] EscapeGameCode  - RAPPEL: Votre code   : 387
+INFO    2019-11-21 10:55:48,884 [Thread-4] EscapeGameCode  - Indiquez si, pour chaque chiffre de la combinaison, si la solution est plus petite ou plus grande que la valeur donnée.
+INFO    2019-11-21 10:55:56,888 [Thread-4] EscapeGameCode  - L'ordinateur propose : 487
+INFO    2019-11-21 10:55:56,888 [Thread-4] EscapeGameCode  - RAPPEL: Votre code   : 387
+INFO    2019-11-21 10:55:56,888 [Thread-4] EscapeGameCode  - Indiquez si, pour chaque chiffre de la combinaison, si la solution est plus petite ou plus grande que la valeur donnée.
+INFO    2019-11-21 10:56:03,891 [Thread-4] EscapeGameCode  - L'ordinateur propose : 387
+INFO    2019-11-21 10:56:03,891 [Thread-4] EscapeGameCode  - RAPPEL: Votre code   : 387
+INFO    2019-11-21 10:56:03,891 [Thread-4] EscapeGameCode  - L'ordinateur a deviné votre code secret !
+INFO    2019-11-21 10:56:03,891 [Thread-4] EscapeGameCode  - Félicitations, vous avez gagné !
+INFO    2019-11-21 10:56:03,891 [Thread-4] EscapeGameCode  - Voulez-vous rejouer ?

@@ -1,17 +1,20 @@
 package fr.nathanael2611.openclassrooms.escapegame.code.core.util;
 
 import java.util.AbstractList;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * This class was based on the NonNullList Minecraft class
+ * @param <E>
+ */
 public class GivenSizeList<E> extends AbstractList<E>
 {
     private final List<E> delegate;
     private final E defaultElement;
 
     /**
-     * Creates a new GivenSizeList with <i>fixed</i> size, and filled with the object passed.
+     * Creates a new GivenSizeList with a given size, and filled with the object passed.
      */
     public static <E> GivenSizeList<E> withSize(int size, E fill)
     {
